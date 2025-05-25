@@ -1,11 +1,8 @@
 
  - EJERCICIO:
-  Utilizando tu lenguaje, explora el concepto de expresiones regulares,
-  creando una que sea capaz de encontrar y extraer todos los números
-  de un texto.
+  Utilizando tu lenguaje, emplea 3 mecanismos diferentes para imprimir
+  números del 1 al 10 mediante iteración.
  
  - DIFICULTAD EXTRA (opcional):
-  Crea 3 expresiones regulares (a tu criterio) capaces de:
-  - Validar un email.
-  - Validar un número de teléfono.
-  - Validar una url.
+  Escribe el mayor número de mecanismos que posea tu lenguaje
+  para iterar valores. ¿Eres capaz de utilizar 5? ¿Y 10?
