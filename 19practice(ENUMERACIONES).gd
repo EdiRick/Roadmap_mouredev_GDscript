@@ -1,4 +1,5 @@
 extends Node
+
 enum semana {
 	LUNES = 1,
 	MARTES = 2,
