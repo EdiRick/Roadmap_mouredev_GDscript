@@ -1,14 +1,15 @@
 
  - EJERCICIO:
-  Utilizando un mecanismo de peticiones HTTP de tu lenguaje, realiza
-  una petición a la web que tú quieras, verifica que dicha petición
-  fue exitosa y muestra por consola el contenido de la web.
+  Explora el concepto de callback en tu lenguaje creando un ejemplo
+  simple (a tu elección) que muestre su funcionamiento.
  
  - DIFICULTAD EXTRA (opcional):
-  Utilizando la PokéAPI (https://pokeapi.co), crea un programa por
-  terminal al que le puedas solicitar información de un Pokémon concreto
-  utilizando su nombre o número.
-  - Muestra el nombre, id, peso, altura y tipo(s) del Pokémon
-  - Muestra el nombre de su cadena de evoluciones
-  - Muestra los juegos en los que aparece
-  - Controla posibles errores
+  Crea un simulador de pedidos de un restaurante utilizando callbacks.
+  Estará formado por una función que procesa pedidos.
+  Debe aceptar el nombre del plato, una callback de confirmación, una
+  de listo y otra de entrega.
+  - Debe imprimir un confirmación cuando empiece el procesamiento.
+  - Debe simular un tiempo aleatorio entre 1 a 10 segundos entre
+	procesos.
+  - Debe invocar a cada callback siguiendo un orden de procesado.
+  - Debe notificar que el plato está listo o ha sido entregado.
