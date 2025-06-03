@@ -1,7 +1,5 @@
 extends Node
 
-# En GDscript no hay forma de decorar funciones, solo simular
-
 func decorador(funcion: Callable) -> Callable:
 	
 	return func():
@@ -37,7 +35,10 @@ var funcion_counter:Dictionary[StringName, int] = {}
 
 func counter(funcion:Callable) -> Callable:
 	return func():
-		funcion_counter[funcion.get_method()] += 1
+		if funcion_counter.has(funcion.get_method()):
+			funcion_counter[funcion.get_method()] += 1
+		else:
+			funcion_counter.set(funcion.get_method(), 1)
 		print("la funcion %s se llamo %d veces" % [funcion.get_method(), funcion_counter[funcion.get_method()]])
 		funcion.call()
 
