@@ -1,15 +1,14 @@
 
  - EJERCICIO:
-  Explora el "Principio SOLID Abierto-Cerrado (Open-Close Principle, OCP)" 
+  Explora el "Principio SOLID de Sustitución de Liskov (Liskov Substitution Principle, LSP)" 
   y crea un ejemplo simple donde se muestre su funcionamiento
   de forma correcta e incorrecta.
  
  - DIFICULTAD EXTRA (opcional):
-  Desarrolla una calculadora que necesita realizar diversas operaciones matemáticas. 
-  Requisitos:
-  - Debes diseñar un sistema que permita agregar nuevas operaciones utilizando el OCP.
+  Crea una jerarquía de vehículos. Todos ellos deben poder acelerar y frenar, así como
+  cumplir el LSP.
   Instrucciones:
-  1. Implementa las operaciones de suma, resta, multiplicación y división.
-  2. Comprueba que el sistema funciona.
-  3. Agrega una quinta operación para calcular potencias.
-  4. Comprueba que se cumple el OCP.
+  1. Crea la clase Vehículo.
+  2. Añade tres subclases de Vehículo.
+  3. Implementa las operaciones "acelerar" y "frenar" como corresponda.
+  4. Desarrolla un código que compruebe que se cumple el LSP.
