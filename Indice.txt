@@ -1,14 +1,15 @@
 
  - EJERCICIO:
-  Explora el "Principio SOLID de Sustitución de Liskov (Liskov Substitution Principle, LSP)" 
-  y crea un ejemplo simple donde se muestre su funcionamiento
-  de forma correcta e incorrecta.
+  Explora el "Principio SOLID de Segregación de Interfaces (Interface Segregation Principle, ISP)" 
+  y crea un ejemplo simple donde se muestre su funcionamiento de forma correcta e incorrecta.
  
  - DIFICULTAD EXTRA (opcional):
-  Crea una jerarquía de vehículos. Todos ellos deben poder acelerar y frenar, así como
-  cumplir el LSP.
+  Crea un gestor de impresoras.
+  Requisitos:
+  1. Algunas impresoras sólo imprimen en blanco y negro.
+  2. Otras sólo a color.
+  3. Otras son multifunción, pueden imprimir, escanear y enviar fax.
   Instrucciones:
-  1. Crea la clase Vehículo.
-  2. Añade tres subclases de Vehículo.
-  3. Implementa las operaciones "acelerar" y "frenar" como corresponda.
-  4. Desarrolla un código que compruebe que se cumple el LSP.
+  1. Implementa el sistema, con los diferentes tipos de impresoras y funciones.
+  2. Aplica el ISP a la implementación.
+  3. Desarrolla un código que compruebe que se cumple el principio.
