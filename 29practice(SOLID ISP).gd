@@ -81,7 +81,6 @@ func _ready():
 	impresora_multi.escanear("doc.pdf")
 	impresora_multi.enviar_fax("doc.pdf")
 
-
 class BlancoYNegro:
 	static func imprimir(documento:StringName):
 		print("Se esta imprimiendo en N/B: %s" % documento)
